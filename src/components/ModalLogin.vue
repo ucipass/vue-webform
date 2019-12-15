@@ -21,7 +21,7 @@
 </template>
 
 <script>
-import { getCookie, setCookie } from '@/components/cookies2.js'
+import { getCookie, setCookie } from '@/components/cookies.js'
 
 export default {
   name: 'ModalLogin',

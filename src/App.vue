@@ -1,17 +1,25 @@
 <template>
   <div id="app">
     <NavBarMain/>
+    <MainCreatePage/>
+    <MainReadPage/>
+    <MainUpdatePage/>
+    <MainDeletePage/>
 
   </div>
 </template>
 
 <script>
 import NavBarMain from './components/NavBarMain.vue'
+import MainCreatePage from './components/MainCreatePage.vue'
+import MainReadPage from './components/MainReadPage.vue'
+import MainUpdatePage from './components/MainUpdatePage.vue'
+import MainDeletePage from './components/MainDeletePage.vue'
 
 export default {
   name: 'app',
   components: {
-    NavBarMain
+    NavBarMain,MainCreatePage,MainReadPage,MainUpdatePage,MainDeletePage
   },
   mounted: function(){
   }
